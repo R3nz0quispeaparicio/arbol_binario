@@ -31,7 +31,7 @@ def buscar_numero(nodo, n, camino):
     if nodo is None:
         return False, camino
 
-    resultados.append(camino)  # Guardar el camino actual en la lista de resultados
+    resultados.append(camino) 
 
     if n == nodo.n:
         return True, camino
